@@ -1,0 +1,10 @@
+version: '3'
+services:
+  atm-service:
+    container_name: atm-service
+    build: .
+    ports:
+      - 11098:1098
+      - 11099:1099
+      - 18080:8080
+      - 18787:8787
